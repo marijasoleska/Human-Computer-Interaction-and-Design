@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from marketapp.models import *
+from MarketApp.models import *
 
 # Register your models here.
 
