@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.models import User
 
-from knigiapp.models import Book, Translator, BookTranslator, Rating, Genre, BookRating
+from Book.models import Book, Translator, BookTranslator, Rating, Genre, BookRating
 
 
 class GenreAdmin(admin.ModelAdmin):
